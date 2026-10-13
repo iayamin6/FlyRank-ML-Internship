@@ -1,0 +1,47 @@
+{
+  "seed": 42,
+  "split": "client_holdout",
+  "train_pages": 27675,
+  "test_pages": 2325,
+  "train_clients": 26,
+  "test_clients": 6,
+  "test_prevalence": 0.3909677419354839,
+  "features": [
+    "content_age_days",
+    "days_since_last_update",
+    "impressions_90d",
+    "avg_position",
+    "ctr",
+    "word_count"
+  ],
+  "metrics": [
+    {
+      "ranking": "hand rule",
+      "p50_stable": 0.4,
+      "p50_random_tie_expectation": 0.3909677419354839,
+      "average_precision": 0.3909677419354839,
+      "cutoff_tie_pages": 2325
+    },
+    {
+      "ranking": "tree depth 2",
+      "p50_stable": 0.52,
+      "p50_random_tie_expectation": 0.5142460041695622,
+      "average_precision": 0.5059753297924059,
+      "cutoff_tie_pages": 1439
+    },
+    {
+      "ranking": "tree depth 3",
+      "p50_stable": 0.62,
+      "p50_random_tie_expectation": 0.5600436681222707,
+      "average_precision": 0.5329465944143861,
+      "cutoff_tie_pages": 916
+    },
+    {
+      "ranking": "tree depth 4",
+      "p50_stable": 0.58,
+      "p50_random_tie_expectation": 0.5367047308319739,
+      "average_precision": 0.528862964411836,
+      "cutoff_tie_pages": 613
+    }
+  ]
+}

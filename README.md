@@ -145,3 +145,8 @@ build on — and the `skills/` folder here is the instruction library for your A
 ---
 
 *Track leads: Mirza Ašćerić (ML) · Hole (data engineering). Code under MIT (see `LICENSE`); data under `DATA_USE.md`.*
+
+
+## Assignment 1 — completed starter notebooks
+
+Both [Notebook 01](notebooks/01_first_look_and_discovery.ipynb) and [Notebook 02](notebooks/02_your_first_readable_model.ipynb) contain executed cells, saved outputs, and completed discovery/model experiments. See [measured results and reproduction notes](work/assignment01.md).
